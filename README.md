@@ -10,7 +10,7 @@ DCL 是面向 Minecraft Java 版玩家的第三方桌面启动器，优先支持
 
 刷新令牌使用 Windows 系统凭据机制保存，短期游戏访问令牌保存在进程内存。实例、配置、缓存和日志保存在本地；登录和资源获取仍需连接相应服务。无需注册 DCL 账号，当前没有广告或云同步服务。
 
-**当前状态：** 自有应用已注册，但 Minecraft Java 服务 API 准入尚未完成，完整正版登录未实际运行确认。发布者仍需完成准入并在发行包中内置应用配置；玩家无需自行申请或填写开发者参数。
+**当前状态：** 自有应用已注册，Minecraft Java 服务 API 准入申请已于 2026-10-21 提交，等待审核。完整正版登录未实际运行确认；获准后仍需将应用配置内置到发行包。玩家无需自行申请或填写开发者参数。
 
 DCL 安装包不附带 Minecraft 游戏本体。使用游戏需要有效的游戏授权；模组和其他资源仍受各自作者及平台的许可约束。
 
@@ -26,7 +26,7 @@ The authentication code uses Microsoft's official device-code flow, copies the d
 
 Refresh credentials use the Windows system credential mechanism; short-lived game access tokens remain in process memory. Instances, settings, caches, and logs are local, while authentication and resource retrieval require network access. No DCL account registration is required. The current application has no advertising or cloud synchronization service.
 
-**Current status:** DCL's own application has been registered, but Minecraft Java Game Service API approval has not yet been obtained. End-to-end official-account sign-in has not been confirmed in actual operation. The publisher must complete approval and embed the application configuration in a release; players do not need to register an application or enter developer settings.
+**Current status:** DCL's own application has been registered. Its Minecraft Java Game Service API access request was submitted on October 21, 2026 and is awaiting review. End-to-end official-account sign-in has not been confirmed in actual operation. API approval and a release with embedded application configuration are still pending; players do not need to register an application or enter developer settings.
 
 The DCL installer does not include the Minecraft game itself. A valid game license is required. Mods and other resources remain subject to their authors' and platforms' respective licenses.
 
